@@ -1,0 +1,34 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.forecast-day {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.forecast-day:hover {
+  transform: translateY(-5px);
+}
+
+.forecast-day img {
+  width: 60px;
+  height: 60px;
+}
+.tooltip-inner {
+  white-space: pre-line; /* allows newline characters (\n) to work */
+  text-align: left;      /* optional: align text to left for readability */
+}
+.card-body ul li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
